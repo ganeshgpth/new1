@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+o<!DOCTYPE html>
 <html>
 <body>
 
-<h4>JavaScript Array Methods</h4> 
-<h3>push()</h2>
-<p>The push() method appends a new element to an array:</p>
+<h3>JavaScript Array Methods</h3>
+<h2>pop()</h2>
+<p>The pop() method removes the last element from an array.</p>
 
 <p id="demo1"></p>
 <p id="demo2"></p>
@@ -12,7 +12,7 @@
 <script>
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo1").innerHTML = fruits;
-fruits.push("Kiwi");
+fruits.pop();
 document.getElementById("demo2").innerHTML = fruits;
 </script>
 
